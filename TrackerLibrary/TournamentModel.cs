@@ -2,6 +2,9 @@
 
 namespace TrackerLibrary
 {
+    /// <summary>
+    /// Represents the tournament.
+    /// </summary>
     public class TournamentModel
     {
         /// <summary>

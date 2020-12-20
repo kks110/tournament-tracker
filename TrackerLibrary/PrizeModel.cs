@@ -1,5 +1,8 @@
 ﻿namespace TrackerLibrary
 {
+    /// <summary>
+    /// Represents a prize.
+    /// </summary>
     public class PrizeModel
     {
         /// <summary>
