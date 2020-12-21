@@ -6,6 +6,10 @@
     public class PrizeModel
     {
         /// <summary>
+        /// The unique ID
+        /// </summary>
+        public int Id { get; set; }
+        /// <summary>
         /// Represente the place a team needs to come to win this prize.
         /// </summary>
         public int PlaceNumber { get; set; }
