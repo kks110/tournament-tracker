@@ -183,11 +183,11 @@
             this.scoreButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray;
             this.scoreButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
             this.scoreButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.scoreButton.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.scoreButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.scoreButton.ForeColor = System.Drawing.Color.SteelBlue;
-            this.scoreButton.Location = new System.Drawing.Point(584, 269);
+            this.scoreButton.Location = new System.Drawing.Point(579, 283);
             this.scoreButton.Name = "scoreButton";
-            this.scoreButton.Size = new System.Drawing.Size(124, 75);
+            this.scoreButton.Size = new System.Drawing.Size(124, 50);
             this.scoreButton.TabIndex = 16;
             this.scoreButton.Text = "Submit Score";
             this.scoreButton.UseVisualStyleBackColor = true;
