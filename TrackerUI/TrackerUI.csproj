@@ -6,4 +6,16 @@
         <UseWindowsForms>true</UseWindowsForms>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Update="CreateTournamentForm.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="CreateTeamForm.cs">
+        <SubType>Form</SubType>
+      </Compile>
+      <Compile Update="CreatePrizeForm.cs">
+        <SubType>Form</SubType>
+      </Compile>
+    </ItemGroup>
+
 </Project>
