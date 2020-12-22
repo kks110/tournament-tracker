@@ -63,7 +63,6 @@ namespace TrackerUI
             this.tournamentNameValue.Name = "tournamentNameValue";
             this.tournamentNameValue.Size = new System.Drawing.Size(512, 43);
             this.tournamentNameValue.TabIndex = 13;
-            this.tournamentNameValue.TextChanged += new System.EventHandler(this.tournamentNameValue_TextChanged);
             // 
             // teamNameLabel
             // 
@@ -97,7 +96,6 @@ namespace TrackerUI
             this.selectTeamMemberLabel.Size = new System.Drawing.Size(515, 44);
             this.selectTeamMemberLabel.TabIndex = 14;
             this.selectTeamMemberLabel.Text = "Select Team Member";
-            this.selectTeamMemberLabel.Click += new System.EventHandler(this.label1_Click);
             // 
             // selectTeamMemberDropdown
             // 
@@ -224,7 +222,6 @@ namespace TrackerUI
             this.firstNameLabel.Size = new System.Drawing.Size(138, 34);
             this.firstNameLabel.TabIndex = 9;
             this.firstNameLabel.Text = "First Name";
-            this.firstNameLabel.Click += new System.EventHandler(this.teamOneScoreLabel_Click);
             // 
             // deleteSelectedMemberButton
             // 
@@ -250,7 +247,6 @@ namespace TrackerUI
             this.MembersLabel.Size = new System.Drawing.Size(254, 34);
             this.MembersLabel.TabIndex = 24;
             this.MembersLabel.Text = "Members";
-            this.MembersLabel.Click += new System.EventHandler(this.tournamentPlayersLabel_Click_1);
             // 
             // tournamentPlayersListBox
             // 

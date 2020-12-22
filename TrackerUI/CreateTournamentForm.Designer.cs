@@ -77,7 +77,6 @@ namespace TrackerUI
             this.tournamentNameLabel.Size = new System.Drawing.Size(309, 34);
             this.tournamentNameLabel.TabIndex = 9;
             this.tournamentNameLabel.Text = "Tournament Name";
-            this.tournamentNameLabel.Click += new System.EventHandler(this.tournamentNameLabel_Click);
             // 
             // entryFeeValue
             // 
@@ -170,7 +169,6 @@ namespace TrackerUI
             this.tournamentPlayersListBox.Name = "tournamentPlayersListBox";
             this.tournamentPlayersListBox.Size = new System.Drawing.Size(305, 170);
             this.tournamentPlayersListBox.TabIndex = 20;
-            this.tournamentPlayersListBox.SelectedIndexChanged += new System.EventHandler(this.tournamentPlayersListBox_SelectedIndexChanged);
             // 
             // tournamentPlayersLabel
             // 
@@ -181,7 +179,6 @@ namespace TrackerUI
             this.tournamentPlayersLabel.Size = new System.Drawing.Size(309, 34);
             this.tournamentPlayersLabel.TabIndex = 21;
             this.tournamentPlayersLabel.Text = "Teams / Players";
-            this.tournamentPlayersLabel.Click += new System.EventHandler(this.tournamentPlayersLabel_Click);
             // 
             // deleteSelectedPlayerButton
             // 
@@ -197,7 +194,6 @@ namespace TrackerUI
             this.deleteSelectedPlayerButton.TabIndex = 22;
             this.deleteSelectedPlayerButton.Text = "Delete";
             this.deleteSelectedPlayerButton.UseVisualStyleBackColor = true;
-            this.deleteSelectedPlayerButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // deleteSelectedPrizeButton
             // 

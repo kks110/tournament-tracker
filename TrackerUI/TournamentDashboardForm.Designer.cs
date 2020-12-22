@@ -49,7 +49,6 @@ namespace TrackerUI
             this.tournamentDashboardLabel.Size = new System.Drawing.Size(387, 52);
             this.tournamentDashboardLabel.TabIndex = 14;
             this.tournamentDashboardLabel.Text = "Tournament Dashboard";
-            this.tournamentDashboardLabel.Click += new System.EventHandler(this.createPrizeLabel_Click);
             // 
             // loadExistingTournamentDropDown
             // 

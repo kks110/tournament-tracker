@@ -9,10 +9,5 @@ namespace TrackerUI
         {
             InitializeComponent();
         }
-
-        private void createPrizeLabel_Click(object sender, EventArgs e)
-        {
-            throw new System.NotImplementedException();
-        }
     }
 }
