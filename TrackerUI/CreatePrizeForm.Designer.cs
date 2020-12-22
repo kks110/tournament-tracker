@@ -79,7 +79,7 @@ namespace TrackerUI
             this.prizeAmountValue.Name = "prizeAmountValue";
             this.prizeAmountValue.Size = new System.Drawing.Size(151, 43);
             this.prizeAmountValue.TabIndex = 17;
-            this.prizeAmountValue.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.prizeAmountValue.Text = "0";
             // 
             // prizeAmountLabel
             // 
@@ -96,7 +96,7 @@ namespace TrackerUI
             this.placeNameValue.Location = new System.Drawing.Point(231, 107);
             this.placeNameValue.Name = "placeNameValue";
             this.placeNameValue.Size = new System.Drawing.Size(151, 43);
-            this.placeNameValue.TabIndex = 19;
+            this.placeNameValue.TabIndex = 16;
             // 
             // placeNameLabel
             // 
@@ -114,7 +114,7 @@ namespace TrackerUI
             this.prizePercentageValue.Name = "prizePercentageValue";
             this.prizePercentageValue.Size = new System.Drawing.Size(151, 43);
             this.prizePercentageValue.TabIndex = 21;
-            this.prizePercentageValue.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.prizePercentageValue.Text = "0";
             // 
             // prizePercentageLabel
             // 
@@ -125,7 +125,6 @@ namespace TrackerUI
             this.prizePercentageLabel.Size = new System.Drawing.Size(213, 40);
             this.prizePercentageLabel.TabIndex = 20;
             this.prizePercentageLabel.Text = "Prize Percentage";
-            this.prizePercentageLabel.Click += new System.EventHandler(this.prizePercentageLabel_Click);
             // 
             // orLabel
             // 
@@ -152,7 +151,7 @@ namespace TrackerUI
             this.createPrizeButton.TabIndex = 28;
             this.createPrizeButton.Text = "Create Prize";
             this.createPrizeButton.UseVisualStyleBackColor = true;
-            this.createPrizeButton.Click += new System.EventHandler(this.createTeamButton_Click);
+            this.createPrizeButton.Click += new System.EventHandler(this.createPrizeButton_Click);
             // 
             // CreatePrizeForm
             // 
