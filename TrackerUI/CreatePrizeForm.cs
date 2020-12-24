@@ -31,10 +31,6 @@ namespace TrackerUI
                 prizeAmountValue.Text = "0";
                 prizePercentageValue.Text = "0";
             }
-            else
-            {
-                MessageBox.Show("This form has invalid information");
-            }
         }
 
         private bool validateForm()
@@ -46,37 +42,43 @@ namespace TrackerUI
             if (!placeNumberValidNumber)
             {
                 output = false;
+                MessageBox.Show("Place number needs to be an Int");
             }
 
             if (placeNumber < 1)
             {
                 output = false;
+                MessageBox.Show("Place number needs to be greater than 1");
             }
 
             if (placeNameValue.Text.Length == 0)
             {
                 output = false;
+                MessageBox.Show("Please enter a place name");
             }
 
             decimal prizeAmount = 0;
             double prizePercentage = 0;
 
             bool prizeAmountValid = decimal.TryParse(prizeAmountValue.Text, out prizeAmount);
-            bool prizePercentageValid = double.TryParse(prizeAmountValue.Text, out prizePercentage);
+            bool prizePercentageValid = double.TryParse(prizePercentageValue.Text, out prizePercentage);
             
             if (!prizeAmountValid || !prizePercentageValid)
             {
                 output = false;
+                MessageBox.Show("Prize amount and prize percentage must be ints");
             }
 
             if (prizeAmount <= 0 && prizePercentage <= 0)
             {
                 output = false;
+                MessageBox.Show("Please enter a prize amount or percentage");
             }
 
-            if (prizePercentage <= 0 || prizePercentage > 100)
+            if (prizePercentage < 0 || prizePercentage > 100)
             {
                 output = false;
+                MessageBox.Show("Please enter a percentage between 0 and 100");
             }
 
             return output;
