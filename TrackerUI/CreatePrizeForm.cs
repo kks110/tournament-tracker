@@ -15,7 +15,7 @@ namespace TrackerUI
 
         private void createPrizeButton_Click(object sender, EventArgs e)
         {
-            if (validateForm())
+            if (ValidateForm())
             {
                 PrizeModel model = new PrizeModel(
                     placeNameValue.Text, 
@@ -32,7 +32,7 @@ namespace TrackerUI
             }
         }
 
-        private bool validateForm()
+        private bool ValidateForm()
         {
             bool output = true;
             int placeNumber = 0;

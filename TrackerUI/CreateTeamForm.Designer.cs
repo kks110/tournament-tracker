@@ -40,7 +40,7 @@ namespace TrackerUI
             this.selectTeamMemberDropdown = new System.Windows.Forms.ComboBox();
             this.addMemberButton = new System.Windows.Forms.Button();
             this.addNewMemberGroupBox = new System.Windows.Forms.GroupBox();
-            this.createMemeberButton = new System.Windows.Forms.Button();
+            this.createMemberButton = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.phonenumberLabel = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -122,7 +122,7 @@ namespace TrackerUI
             // 
             // addNewMemberGroupBox
             // 
-            this.addNewMemberGroupBox.Controls.Add(this.createMemeberButton);
+            this.addNewMemberGroupBox.Controls.Add(this.createMemberButton);
             this.addNewMemberGroupBox.Controls.Add(this.textBox3);
             this.addNewMemberGroupBox.Controls.Add(this.phonenumberLabel);
             this.addNewMemberGroupBox.Controls.Add(this.textBox2);
@@ -140,20 +140,21 @@ namespace TrackerUI
             this.addNewMemberGroupBox.TabStop = false;
             this.addNewMemberGroupBox.Text = "Add New Member";
             // 
-            // createMemeberButton
+            // createMemberButton
             // 
-            this.createMemeberButton.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.createMemeberButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray;
-            this.createMemeberButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
-            this.createMemeberButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.createMemeberButton.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.createMemeberButton.ForeColor = System.Drawing.Color.SteelBlue;
-            this.createMemeberButton.Location = new System.Drawing.Point(6, 231);
-            this.createMemeberButton.Name = "createMemeberButton";
-            this.createMemeberButton.Size = new System.Drawing.Size(496, 60);
-            this.createMemeberButton.TabIndex = 21;
-            this.createMemeberButton.Text = "Create Member";
-            this.createMemeberButton.UseVisualStyleBackColor = true;
+            this.createMemberButton.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.createMemberButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray;
+            this.createMemberButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
+            this.createMemberButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.createMemberButton.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.createMemberButton.ForeColor = System.Drawing.Color.SteelBlue;
+            this.createMemberButton.Location = new System.Drawing.Point(6, 231);
+            this.createMemberButton.Name = "createMemberButton";
+            this.createMemberButton.Size = new System.Drawing.Size(496, 60);
+            this.createMemberButton.TabIndex = 21;
+            this.createMemberButton.Text = "Create Member";
+            this.createMemberButton.UseVisualStyleBackColor = true;
+            this.createMemberButton.Click += new System.EventHandler(this.createMemberButton_Click);
             // 
             // textBox3
             // 
@@ -311,7 +312,7 @@ namespace TrackerUI
         private System.Windows.Forms.Label MembersLabel;
         private System.Windows.Forms.ListBox tournamentPlayersListBox;
 
-        private System.Windows.Forms.Button createMemeberButton;
+        private System.Windows.Forms.Button createMemberButton;
         private System.Windows.Forms.Label emailLabel;
         private System.Windows.Forms.Label lastNameLabel;
         private System.Windows.Forms.Label phonenumberLabel;

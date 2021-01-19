@@ -9,5 +9,10 @@ namespace TrackerUI
         {
             InitializeComponent();
         }
+
+        private void createMemberButton_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
